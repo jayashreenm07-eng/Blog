@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Ink & Quill | Home</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <a href="index.html" class="brand"><span class="brand-icon">✒</span><span><strong>The Ink & Quill</strong><small>A JOURNAL OF IDEAS</small></span></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+  <nav class="nav-links" id="navLinks">
+    <a href="index.html" class="nav-link active">Home</a>
+    <a href="blogs.html" class="nav-link">Explore Blogs</a>
+    <a href="editor.html" class="nav-write">✎ Write a Blog</a>
+    <a href="about.html" class="nav-link">About</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-content">
+      <span class="eyebrow">EST. FOR THE LOVE OF WORDS</span>
+      <h1>Every story<br>deserves <em>a place.</em></h1>
+      <p>A quiet corner of the internet for thoughtful writing,
+      personal stories, and ideas worth sharing.</p>
+      <div class="hero-actions">
+        <a href="editor.html" class="button button-dark">Begin your story ↗</a>
+        <a href="blogs.html" class="text-link">Discover the journal ↓</a>
+      </div>
+    </div>
+    <div class="hero-art">
+      <div class="art-circle"></div>
+      <div class="art-book">
+        <span class="book-decoration">❧</span>
+        <span class="book-title">The Art<br>of Words</span>
+        <span class="book-line"></span>
+        <span class="book-author">A COLLECTION OF THOUGHTS</span>
+      </div>
+      <span class="art-star star-one">✳</span>
+      <span class="art-star star-two">✦</span>
+      <span class="art-caption">Stories live here.</span>
+    </div>
+  </section>
+
+  <section class="stats-strip">
+    <div><strong id="publishedCount">0</strong><span>Published stories</span></div>
+    <div><strong id="draftCount">0</strong><span>Works in progress</span></div>
+    <div><strong>∞</strong><span>Ideas to explore</span></div>
+  </section>
+
+  <section class="journal-section">
+    <div class="section-heading">
+      <div>
+        <span class="eyebrow">RECENT WRITING</span>
+        <h2>From the <em>journal.</em></h2>
+        <p class="section-description">A collection of thoughts and discoveries.</p>
+      </div>
+      <a href="blogs.html" class="button button-outline">Explore all blogs →</a>
+    </div>
+    <div class="blog-grid" id="homeBlogGrid"></div>
+    <div class="empty-state" id="homeEmptyState" hidden>
+      <h3>Your first story starts here.</h3>
+      <p>Give your ideas a home on the page.</p>
+      <a href="editor.html" class="button button-dark">Write your first story</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <a href="index.html" class="footer-brand">The Ink & Quill ✒</a>
+  <p>Made with care, written with feeling.</p>
+  <a href="about.html" class="back-top">About this journal</a>
+</footer>
+</body>
+</html>
